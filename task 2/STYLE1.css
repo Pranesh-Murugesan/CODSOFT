@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; }
+
+header { background-color: #4f5455; display: flex; justify-content: space-between; align-items: center; padding: 20px; }
+
+.logo img { height: 80px; width: 80px; border-radius: 50%; object-fit: cover; }
+
+.name h1 { color: #ffffff; margin: 0; }
+
+.name p { color: #ff9b20; margin: 0; font-weight: 500; }
+
+#about { background-color: #f8f4f7; padding: 40px; text-align: center; }
+
+#about img { height: 200px; width: 200px; border-radius: 50%; object-fit: cover; margin-bottom: 30px; }
+
+#skills { background-color: #4f5455; padding: 40px; color: #f5ebeb; text-align: center; }
+
+#skills ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px; }
+
+#skills li { background-color: #32ea11; padding: 10px 20px; border-radius: 20px; }
+
+#projects { background-color: #f6f6f0; padding: 40px; text-align: center; }
+
+.project { background-color: #ee7423; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: left; }
+
+.project h3 { margin: 0; margin-bottom: 10px; }
+
+.project p { margin: 0; margin-bottom: 20px; color: #eee5e5; }
+
+.project img { max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 20px; }
+
+#resume { background-color: #faffff; padding: 40px; color: #0c0c0c; text-align: center; }
+
+#contact { background-color: #e9f1ef; padding: 40px; text-align: center; }
+
+footer { background-color: #b2dcff; padding: 20px; color: #050505; text-align: center; }
+
+footer p { margin: 0; }
+
+#skills li:hover { background-color: #354a5c; }
+
+.project:hover { box-shadow: 0 4px 6px rgba(223, 101, 101, 0.1); }
